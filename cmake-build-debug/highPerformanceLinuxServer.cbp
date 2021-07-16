@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="highPerformanceLinuxServer" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="client">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 client" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="client/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/client" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 client/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="processpool">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/processpool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 processpool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="processpool/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/processpool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 processpool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="11_4">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/11_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 11_4" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="11_4/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/11_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 11_4/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="11_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/11_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 11_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="11_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/11_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 11_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="10_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/10_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="10_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/10_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_1">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_1/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_7">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_7" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_7" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_7/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_7" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_7/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_8">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_8" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_8" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_8/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_8" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_8/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_2">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_2/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_6">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_6" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_6" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_6/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_6" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_6/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_5">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_5" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_5/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_5/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="highPerformanceLinuxServer">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/highPerformanceLinuxServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 highPerformanceLinuxServer" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="highPerformanceLinuxServer/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/highPerformanceLinuxServer" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 highPerformanceLinuxServer/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_2">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_2/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cgi">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/cgi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="cgi/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/cgi" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 cgi/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_1">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_1/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="8_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/8_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="8_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/8_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 8_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="10_1">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/10_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="10_1/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/10_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 10_1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_3">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_3" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_3/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_3" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_3/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_1">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_1/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_4">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_4/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_4/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_1">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_1" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="5_1/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/5_1" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 5_1/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chroot">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/chroot" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 chroot" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chroot/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/chroot" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 chroot/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_5">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="6_5/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/6_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 6_5/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threadpool">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="threadpool/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/threadpool" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 threadpool/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="syslog">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/syslog" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 syslog" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="syslog/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/syslog" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 syslog/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_2">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_2" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="7_2/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/7_2" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 7_2/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chdir">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/chdir" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 chdir" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="chdir/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/chdir" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 chdir/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_4">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_4" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_4/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_4" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_4/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_5">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_5" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="9_5/fast">
+         <Option output="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/9_5" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/5" />
+            <Add directory="/usr/include/c++/5/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/5" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 9_5/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/lht/.zhuque/highPerformanceLinuxServer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_1.cpp">
+         <Option target="5_1"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_2.cpp">
+         <Option target="5_2"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_3.cpp">
+         <Option target="5_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_5.cpp">
+         <Option target="5_5"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_6.cpp">
+         <Option target="5_6"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter05/5_7.cpp">
+         <Option target="5_7"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter06/6_1.cpp">
+         <Option target="6_1"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter06/6_2.cpp">
+         <Option target="6_2"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter06/6_3.cpp">
+         <Option target="6_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter06/6_4.cpp">
+         <Option target="6_4"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter06/6_5.cpp">
+         <Option target="6_5"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/7_1.cpp">
+         <Option target="7_1"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/7_2.cpp">
+         <Option target="7_2"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/7_3.cpp">
+         <Option target="7_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/chdir.cpp">
+         <Option target="chdir"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/chroot.cpp">
+         <Option target="chroot"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter07/syslog.cpp">
+         <Option target="syslog"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter08/8_3.cpp">
+         <Option target="8_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter09/9_1.cpp">
+         <Option target="9_1"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter09/9_4.cpp">
+         <Option target="9_4"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter09/9_5.cpp">
+         <Option target="9_5"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter09/9_8.cpp">
+         <Option target="9_8"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter10/10_1.cpp">
+         <Option target="10_1"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter10/10_3.cpp">
+         <Option target="10_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/11_3.cpp">
+         <Option target="11_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/11_4.cpp">
+         <Option target="11_4"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/timeLst.h">
+         <Option target="11_3"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_processpool/client.cpp">
+         <Option target="client"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_processpool/execgi.cpp">
+         <Option target="cgi"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_processpool/processpool.cpp">
+         <Option target="processpool"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_processpool/processpool.h">
+         <Option target="processpool"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_threadpool/http_conn.cpp">
+         <Option target="threadpool"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_threadpool/http_conn.h">
+         <Option target="threadpool"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/chapter15_threadpool/server.cpp">
+         <Option target="threadpool"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/main.cpp">
+         <Option target="highPerformanceLinuxServer"/>
+      </Unit>
+      <Unit filename="/home/lht/.zhuque/highPerformanceLinuxServer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

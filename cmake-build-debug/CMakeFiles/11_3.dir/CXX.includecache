@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/11_3.cpp
+timeLst.h
+/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/timeLst.h
+
+/home/lht/.zhuque/highPerformanceLinuxServer/chapter11/timeLst.h
+ctime
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+cassert
+-
+cstdio
+-
+unistd.h
+-
+cstdlib
+-
+cerrno
+-
+cstring
+-
+csignal
+-
+fcntl.h
+-
+pthread.h
+-
+sys/types.h
+-
+sys/epoll.h
+-
+

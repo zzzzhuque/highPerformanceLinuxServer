@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/syslog.dir/chapter07/syslog.cpp.o  -o syslog 

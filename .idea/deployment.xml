@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="lht (165a3200-d1a8-4d9c-9b05-109b2c2f1006)">
+    <serverData>
+      <paths name="lht (165a3200-d1a8-4d9c-9b05-109b2c2f1006)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/lht/.zhuque/highPerformanceLinuxServer" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

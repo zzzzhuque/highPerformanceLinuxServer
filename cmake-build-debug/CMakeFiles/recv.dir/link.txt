@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/recv.dir/chapter10/recv.cpp.o  -o recv 

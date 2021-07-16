@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lht/.zhuque/highPerformanceLinuxServer/chapter08/8_3.cpp
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+cassert
+-
+cstdio
+-
+cstdlib
+-
+unistd.h
+-
+cerrno
+-
+cstring
+-
+fcntl.h
+-
+

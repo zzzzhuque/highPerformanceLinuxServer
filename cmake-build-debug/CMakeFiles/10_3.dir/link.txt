@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/10_3.dir/chapter10/10_3.cpp.o  -o 10_3 
